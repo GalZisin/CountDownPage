@@ -38,3 +38,38 @@ h2 {
 .waiting {
     height: 50vh;
 }
+
+@media (max-width: 375px) {
+    .coming-soon-cd {
+        text-align: center;
+    }
+    .waiting {
+        height: 15vh;
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .coming-soon-cd {
+        text-align: center;
+    }
+    .waiting {
+        height: 22vh;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .waiting {
+        height: 35vh;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .waiting {
+        height: 35vh;
+        margin-top: 20px;
+    }
+}
