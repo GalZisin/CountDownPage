@@ -39,9 +39,10 @@ h2 {
     height: 50vh;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
     .coming-soon-cd {
         text-align: center;
+        width: 100%;
     }
     .waiting {
         height: 15vh;
